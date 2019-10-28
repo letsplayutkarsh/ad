@@ -2,11 +2,12 @@
 
 void main(){
 
+	int a[3][3];
 	for(int i=0;i<3;i++)
 	{
 		for(int j=0;j<3;j++)
 		{
-			scanf("%d",&int[i][j]);
+			scanf("%d",&a[i][j]);
 		}
 	}
 	//int a[3][3] = { { 1, 2, 9 }, 
@@ -28,12 +29,6 @@ void main(){
 	for(i=0;i<3;i++)
 		for(j=0;j<3;j++)
 			b[i][j+1]=a[i][j];	
-
-	for(i=0;i<3;i++){
-		for(j=0;j<5;j++)
-			printf("%d ",b[i][j]);
-		printf("\n");}	
-
 	for(i=0;i<4;i++){
 		//printf("\n1st loop\n");
 		for(j=0;j<5;j++){
